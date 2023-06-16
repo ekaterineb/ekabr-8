@@ -4,11 +4,14 @@ ul{
 a{
 	text-decoration: none;
 }
+.main{
+    border-bottom: 1px solid #FFFFFF;
+}
 header{
     background-color: #0A22F4;
 }
 .container{
-    max-width: 1200px;
+    max-width: 1250px;
     height: 91px;
     margin: auto;
 }
@@ -18,8 +21,9 @@ nav > ul > li > a{
 .contact{
     color: #2c1414;
     background-color: #FFFFFF;
-    width: 81px;
-    height: 19px;
+    width: 100px;
+    height: 25px;
+    text-align: center;
 }
 .nav,
 .navbar ul{
@@ -32,4 +36,56 @@ nav > ul > li > a{
 .navbar ul{
     gap: 20px;
     padding: 20px 0;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1250px;
+    padding-top: 70px;
+    margin: auto;
+}
+.points{
+    gap: 20px;
+    display: flex;
+}
+.point1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #0A22F4;
+}
+.point2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #0A22F480;
+}
+.point3{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #0A22F480;
+}
+.box1{
+    width: 70px;
+    height: 70px;
+    background: #F9F9F9;
+}
+.box2{
+    width: 70px;
+    height: 70px;
+    background: #0A22F4;
+}
+.box3{
+    width: 70px;
+    height: 70px;
+    background: #F9F9F9;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1250px;
+    margin: auto;
+    padding-top: 30px;
 }

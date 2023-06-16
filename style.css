@@ -1,0 +1,35 @@
+ul{
+    list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+header{
+    background-color: #0A22F4;
+}
+.container{
+    max-width: 1200px;
+    height: 91px;
+    margin: auto;
+}
+nav > ul > li > a{
+    color: #FFFFFF;
+}
+.contact{
+    color: #2c1414;
+    background-color: #FFFFFF;
+    width: 81px;
+    height: 19px;
+}
+.nav,
+.navbar ul{
+    display: flex;
+}
+.nav{
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul{
+    gap: 20px;
+    padding: 20px 0;
+}
